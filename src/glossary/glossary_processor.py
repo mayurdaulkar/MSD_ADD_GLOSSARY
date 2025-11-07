@@ -1449,7 +1449,7 @@ def add_glossary(source_language: str, list_target_languages: list, pdf_path: st
             f"PDF contains: {detected_langs}"
         )
     
-    # STEP 6: EXTRACT GLOSSARY FROM ALL IMAGES IN PARALLEL
+    # STEP 6: EXTRACT GLOSSARY FROM ALL IMAGES IN PARALLELl
     print("\n[STEP 6] Extracting glossary entries (PARALLEL PROCESSING)...")
     extraction_start = time.time()
     
