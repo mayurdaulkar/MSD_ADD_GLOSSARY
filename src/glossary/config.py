@@ -31,7 +31,7 @@ class Config:
         'password': os.getenv("DB_PASSWORD", "postgres"),
     }
 
-    # ========== PDF Proccessing configuration ==========
+    # ========== PDF Proccessing configuration =========
     PDF_DPI = int(os.getenv("PDF_DPI", "300"))
     PDF_THREAD_COUNT = int(os.getenv("PDF_THREAD_COUNT", "4"))
     # Create absolute path and ensure folder exists
