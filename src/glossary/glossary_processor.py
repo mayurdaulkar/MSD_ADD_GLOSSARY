@@ -1118,7 +1118,7 @@ def extract_glossary_parallel(image_paths: list, llm: ChatOpenAI, source_languag
 
 
 # ==============================================================================
-# PHASE 6: DATABASE FUNCTIONS
+# PHASE 6: DATABASE FUNCTION
 # ==============================================================================
 
 def connect_to_database(db_config: dict):
