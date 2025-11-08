@@ -1067,7 +1067,7 @@ def parse_glossary_text(structured_result: GlossaryExtraction, source_language: 
 
 
 # ==============================================================================
-# PHASE 5: PARALLEL EXTRACTION FUNCTIONs
+# PHASE 5: PARALLEL EXTRACTION FUNCTION
 # ==============================================================================
 def extract_glossary_parallel(image_paths: list, llm: ChatOpenAI, source_language: str, target_languages: list, max_workers: int = MAX_WORKERS) -> List[GlossaryEntry]:
     """
