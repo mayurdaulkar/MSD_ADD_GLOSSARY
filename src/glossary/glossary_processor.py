@@ -888,7 +888,7 @@ def extract_images_from_pdf(pdf_path: str, output_folder: str, dpi: int = PDF_DP
 
 # ==============================================================================
 # PHASE 2: EXTRACT TEXT FROM IMAGE WITH STRUCTURED OUTPUT
-# ==============================================================================
+# ============================================================================
 
 def extract_text_from_image(image_path: str, llm: ChatOpenAI, source_lang: str = None, target_langs: list = None) -> tuple:
     """Extract structured glossary data from an image using with_structured_output.
