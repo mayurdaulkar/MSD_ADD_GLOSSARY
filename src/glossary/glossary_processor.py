@@ -792,8 +792,7 @@ MAX_WORKERS = 8  # Number of parallel threads (adjust based on your system)
 
 
 
-# ==============================================================================(changed to check on github)
-# PHASE 1: PDF & IMAGE PROCESSING
+# ==============================================================================
 # ==============================================================================
 
 def preprocess_image(image):
