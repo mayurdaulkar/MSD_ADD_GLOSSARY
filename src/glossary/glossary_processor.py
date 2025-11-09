@@ -787,7 +787,7 @@ from .config import (
 )
 
 # PARALLEL PROCESSING CONFIGURATION
-MAX_WORKERS = 8  # Number of parallel threads (adjust based on your systeM)
+MAX_WORKERS = 8  # Number of parallel threads (adjust based on your system)
 
 
 
