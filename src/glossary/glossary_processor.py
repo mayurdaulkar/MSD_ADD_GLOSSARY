@@ -793,7 +793,7 @@ MAX_WORKERS = 8  # Number of parallel threads (adjust based on your system)
 
 
 # ==============================================================================
-# =============================================================================
+# ============================================================================(changed here)
 
 def preprocess_image(image):
     """Preprocess an image for better OCR accuracy."""
