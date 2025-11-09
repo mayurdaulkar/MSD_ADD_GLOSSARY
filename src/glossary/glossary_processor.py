@@ -941,7 +941,7 @@ def extract_text_from_image(image_path: str, llm: ChatOpenAI, source_lang: str =
 
 # ==============================================================================
 # PHASE 3: LANGUAGE DETECTION & VALIDATION (NO PREDEFINED LANGUAGE RESTRICTIONS)
-# ==============================================================================
+# ============================================================================
 
 def detect_languages_from_raw_image(image_path: str, llm: ChatOpenAI) -> list:
     """Extract raw text from image for language detection."""
@@ -1067,7 +1067,7 @@ def parse_glossary_text(structured_result: GlossaryExtraction, source_language: 
 
 
 # ==============================================================================
-# PHASE 5: PARALLEL EXTRACTION FUNCTIONs
+# PHASE 5: PARALLEL EXTRACTION FUNCTION
 # ==============================================================================
 def extract_glossary_parallel(image_paths: list, llm: ChatOpenAI, source_language: str, target_languages: list, max_workers: int = MAX_WORKERS) -> List[GlossaryEntry]:
     """
