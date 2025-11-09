@@ -941,7 +941,7 @@ def extract_text_from_image(image_path: str, llm: ChatOpenAI, source_lang: str =
 
 # ==============================================================================
 # PHASE 3: LANGUAGE DETECTION & VALIDATION (NO PREDEFINED LANGUAGE RESTRICTIONS)
-# ==============================================================================
+# ============================================================================
 
 def detect_languages_from_raw_image(image_path: str, llm: ChatOpenAI) -> list:
     """Extract raw text from image for language detection."""
